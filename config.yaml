@@ -1,0 +1,14 @@
+# Required
+mode: "local"
+entry_command: "python snp500.py"
+
+# Data volume - absolute path to your data directory
+# This directory will be mounted to /data inside the Docker container
+data_volume: "/workspace/demo-git-pod/data"
+# Optional - for AI-powered evolution
+api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vIiwiZXhwIjoxNzY2MDczMjAxLCJpYXQiOjE3NjM0ODEyMDF9.bffY86YYJb9pFSp3dTkLnNK-RPwW4mon5qtea5PGFfA"
+
+# Optional - run multiple versions in parallel
+parallel: 5
+# conda activate tropiflo
+# tropiflo run --config config.yaml

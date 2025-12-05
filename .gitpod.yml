@@ -1,0 +1,25 @@
+image: gitpod/workspace-python-3.11
+
+tasks:
+  - name: Setup Tropiflo demo
+    init: |
+      python -m venv .venv
+      source .venv/bin/activate
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    command: |
+      clear
+      echo "✅ Tropiflo demo environment is ready."
+      echo
+      echo "To run the demo:"
+      echo "  source .venv/bin/activate"
+      echo "  tropiflo run --config config.yaml"
+      echo
+      echo "This demo uses:"
+      echo "  - snp500.py as the entry script"
+      echo "  - data/sp500.csv as the sample dataset"
+      echo "  - config.yaml to connect to the hosted backend"
+      echo
+      echo "Data volume in this workspace:"
+      echo "  /workspace/demo-git-pod/data"
+
