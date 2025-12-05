@@ -8,11 +8,11 @@ This is a disposable Gitpod sandbox for evaluating **tropiflo** in your browser 
 
 Click this button to launch the demo in Gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<YOUR-GITHUB-REPO-URL>)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TropiFloAI/tropiflo-gitpod-demo)
 
 Or manually visit:
 ```
-https://gitpod.io/#<YOUR-GITHUB-REPO-URL>
+https://gitpod.io/#https://github.com/TropiFloAI/tropiflo-gitpod-demo
 ```
 
 ### Run the Demo
